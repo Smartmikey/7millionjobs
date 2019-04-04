@@ -1,0 +1,49 @@
+.row div a img {
+    filter: brightness(0.6)
+}
+
+.row div a img:hover {
+    filter: brightness(0.9);
+}
+
+.imgGal,
+.imgGal img {
+    display: inline-block;
+    margin: 5px 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.imgGal {
+    position: relative;
+}
+
+.imgGal img:hover {
+    filter: brightness(0.9);
+}
+
+.imgGal img {
+    filter: brightness(0.6);
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    margin: 4% 0% 0% 23%;
+    line-height: 1;
+    filter: brightness(0.9)!important;
+    /* text-align: center;
+    position: absolute;
+    font-size: 45px;
+    font-family: "League Spartan Bold", "Nirmala UI", "Arial";
+    /* 
+    color: #FFFFFF;
+     */
+}
